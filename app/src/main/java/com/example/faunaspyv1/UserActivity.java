@@ -24,6 +24,7 @@ public class UserActivity extends AppCompatActivity {
         view.getContext().startActivity(intent);
     }
 
+    //comentario para que pueda hacer cambios jajajaja
     public void openUser(View view) {
         Intent intent = new Intent(view.getContext(), UserActivity.class);
         view.getContext().startActivity(intent);
